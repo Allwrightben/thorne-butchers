@@ -1,0 +1,35 @@
+.logofont {
+    font-family: 'Alfa Slab One', sans-serif;
+}
+
+body {
+    font-family: '', sans-serif;
+}
+
+.hero {
+            background: url('/assets/images/steakhero.jpg') no-repeat center center;
+            background-size: cover;
+            height: 80vh;
+            position: relative;
+            color: white;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+        }
+
+@media (max-width: 576px) {
+  .deliveroohero img {
+    height: 80px;
+  }
+}
