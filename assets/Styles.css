@@ -7,7 +7,7 @@ body {
 }
 
 .hero {
-            background: url('/assets/images/steakhero.jpg') no-repeat center center;
+            background: url('../assets/images/steakhero.jpg') no-repeat center center;
             background-size: cover;
             height: 80vh;
             position: relative;
