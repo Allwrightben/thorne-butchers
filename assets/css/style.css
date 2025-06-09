@@ -2,6 +2,13 @@
     font-family: 'Alfa Slab One', sans-serif;
 }
 
+.herofont {
+    font-family: "Ultra", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
 body {
     font-family: '', sans-serif;
 }
@@ -28,7 +35,7 @@ body {
         }
 
 @media (max-width: 576px) {
-  .deliveroohero img {
-    height: 80px;
-  }
+    .deliveroohero img {
+        height: 80px;
+    }
 }
